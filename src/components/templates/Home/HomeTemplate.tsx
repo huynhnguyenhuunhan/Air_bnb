@@ -17,9 +17,6 @@ export const HomeTemplate = () => {
     (state: RootState) => state.quanLyViTri
   );
 
-  const { LocationById } = useSelector(
-    (state: RootState) => state.quanLyViTri
-);
 
   const { RoomsAllList, isFetchingRoom } = useSelector(
     (state: RootState) => state.quanLyPhong
